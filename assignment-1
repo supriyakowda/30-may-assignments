@@ -1,0 +1,119 @@
+<!-- 30th may -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Development</title>
+    <style>
+        * {
+            padding: 0px;
+            margin: 0px;
+        }
+
+        .container {
+            display: flex;
+            margin: 25px 0px;
+        }
+
+        .nav {
+            background-color: rgb(36, 210, 36);
+            color: white;
+            padding: 36px;
+            display: flex;
+            flex-direction: column;
+            width: 195px;
+            height: 83vh;
+        }
+
+        button {
+            border: none;
+            background-color: rgb(153 243 153 / 36%);
+            box-shadow: 2px 2px rgb(153 243 153 / 60%);
+            color: white;
+            width: fit-content;
+            height: 25px;
+        }
+
+        .sidebar {
+            text-align: center;
+        }
+
+        .box1 {
+            border-radius: 5px;
+            width: 587px;
+            height: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            box-shadow: 5px 5px 15px #00000033;
+        }
+
+        .box1 p {
+            color: rgb(36, 210, 36);
+            font-size: larger;
+            font-weight: bolder;
+        }
+
+        .box1 h4 {
+            font-size: larger;
+        }
+
+        .boxes {
+            width: 78vw;
+            height: 245px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 16px;
+            margin: auto;
+            margin-top: 28px;
+        }
+
+        .welcome {
+            margin: auto;
+            color: rgb(36, 210, 36);
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="nav">
+            <h2 style="margin-bottom: 10px;">School Dashboard</h2>
+            <button>Dashboard</button>
+            <button>Students</button>
+            <button>Teachers</button>
+            <button>Classes</button>
+            <button>Exams</button>
+            <button>Library</button>
+            <button>Settings</button>
+        </div>
+        <div class="sidebar" style="width: 85vw;">
+            <h1 class="welcome">Welcome to the School Dashboard</h1>
+            <div class="boxes">
+                <div class="box1">
+                    <h4>Total Students</h4>
+                    <p>500</p>
+                </div>
+                <div class="box1">
+                    <h4>Total Teachers</h4>
+                    <p>50</p>
+                </div>
+                <div class="box1">
+                    <h4>Classes</h4>
+                    <p>20</p>
+                </div>
+                <div class="box1">
+                    <h4>Upcoming Exams</h4>
+                    <p>5</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
