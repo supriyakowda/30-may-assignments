@@ -1,0 +1,79 @@
+<!-- 30th May -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Development</title>
+    <style>
+        *
+        {
+            padding: 0px;
+            margin: 0px;
+        }
+
+        .container
+        {
+            display: flex;
+            padding: 25px;
+            margin: 10px 0px;
+            flex-direction: column;
+            background-color: antiquewhite;
+        }
+
+        .heading
+        {
+            width: 93vw;
+            background-color: black;
+            color: white;
+            border-radius: 6px;
+            box-shadow: 2px -4px 4px orange;
+            text-align: center;
+            padding: 12px;
+            margin-bottom: 20px;
+        }
+
+        .boxes
+        {
+            display: flex;
+            flex-wrap: wrap;
+            border: 2px solid black;
+            border-top: 5px solid black;
+            width: 56vw;
+            margin: auto;
+            gap: 14px;
+            padding: 12px;
+        }
+
+        img
+        {
+            border: 2px solid black;
+            width: 200px;
+            height: 200px;
+            border-radius: 6px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="heading">
+            <h1>Photo Gallery</h1>
+        </div>
+        <div class="boxes">
+                <img src="https://img.freepik.com/free-photo/selective-closeup-shot-blue-lavender-flowers-background-water-droplets_181624-4329.jpg?ga=GA1.1.2005274387.1732197697&semt=ais_items_boosted&w=740" alt="">
+                <img src="https://img.freepik.com/free-photo/colorful-humidity-glass_23-2149442670.jpg?ga=GA1.1.2005274387.1732197697&semt=ais_items_boosted&w=740" alt="">
+                <img src="https://img.freepik.com/free-photo/notebook-with-flowers-bouquet-cookies-camera-table_23-2148043931.jpg?ga=GA1.1.2005274387.1732197697&semt=ais_items_boosted&w=740" alt="">
+                <img src="https://img.freepik.com/free-photo/beautiful-decoration-cute-little-dried-colorful-flowers-dark-black-wallpaper_343596-3243.jpg?ga=GA1.1.2005274387.1732197697&semt=ais_items_boosted&w=740" alt="">
+                <img src="https://img.freepik.com/free-photo/beautiful-vertical-shot-peachy-flower_181624-2987.jpg?ga=GA1.1.2005274387.1732197697&semt=ais_items_boosted&w=740" alt="">
+                <img src="https://img.freepik.com/free-photo/closeup-silybum-flower-with-blurred-natural_181624-2721.jpg?ga=GA1.1.2005274387.1732197697&semt=ais_items_boosted&w=740" alt="">
+                <img src="https://img.freepik.com/free-photo/colorful-humidity-glass_23-2149442627.jpg?ga=GA1.1.2005274387.1732197697&semt=ais_items_boosted&w=740" alt="">
+                <img src="https://img.freepik.com/free-photo/smartphone-with-cookies-camera-coffee-cup-table_23-2148043921.jpg?ga=GA1.1.2005274387.1732197697&semt=ais_items_boosted&w=740" alt="">
+                <img src="https://img.freepik.com/free-photo/close-up-plants-with-blurred-hiker-background_23-2147628845.jpg?ga=GA1.1.2005274387.1732197697&semt=ais_items_boosted&w=740" alt="">
+                <img src="https://img.freepik.com/free-photo/woman-takes-pictures-yarn-threads-cup-coffee-her-smartphone_169016-52085.jpg?ga=GA1.1.2005274387.1732197697&semt=ais_items_boosted&w=740" alt="">
+                <img src="https://img.freepik.com/free-photo/beautiful-decoration-cute-little-dried-colorful-flowers-dark-black-wallpaper_343596-3243.jpg?ga=GA1.1.2005274387.1732197697&semt=ais_items_boosted&w=740" alt="">
+                <img src="https://img.freepik.com/free-photo/field-dry-phragmites-plants-blurred-wall_181624-6175.jpg?ga=GA1.1.2005274387.1732197697&semt=ais_items_boosted&w=740" alt="">
+        </div>
+    </div>
+</body>
+</html>
